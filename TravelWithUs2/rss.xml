@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+			<title>Travel With Us</title>
+			<description>Our Home page</description>
+			<link>https://travelwithus.github.com/index.html</link>
+		<item>
+			<title>Offers</title>
+			<description>Our offers</description>
+			<link>https://travelwithuswd.000webhostapp.com/offers.html</link>
+		</item>
+		<item>
+			<title>Advice</title>
+			<description>Tips and advices for traveling</description>
+			<link>https://travelwithus.github.com/advice.html</link>
+		</item>
+		<item>
+			<title>Author</title>
+			<description>About author</description>
+			<link>https://travelwithus.github.com/author.html</link>
+		</item>
+	</channel>
+</rss>

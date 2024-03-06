@@ -1,0 +1,31 @@
+{
+    "slides": [
+        {
+            "image": "assets/img/bg3.jpg",
+            "caption": {
+                "title": "Travel with us",
+                "description": "Find interesting, reliable, enjoyable and fun traveling offers and vacation ideas.",
+                "linkText": "Check out our offers",
+                "linkUrl": "offers.html"
+            }
+        },
+        {
+            "image": "assets/img/bg2.jpg",
+            "caption": {
+                "title": "Enjoy traveling?",
+                "description": "“The world is a book and those who do not travel read only one page.”",
+                "linkText": "",
+                "linkUrl": ""
+            }
+        },
+        {
+            "image": "assets/img/bg1.jpg",
+            "caption": {
+                "title": "Vacation Advices and ideas",
+                "description": "Beautiful thing about vacations is that there are always new things to learn, improve and experience. We have some general tips and some basic stuff that every traveler should know!",
+                "linkText": "Check out our advices",
+                "linkUrl": "offers.html"
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "offers": [
+      {
+        "title": "Hong Kong",
+        "location": "Asia",
+        "description": "A vibrant fusion of East and West. Explore its towering skyline, bustling street markets, culinary delights, and rich cultural heritage amidst breathtaking harbor views and dynamic city life.",
+        "price": {
+            "old": null,
+            "new": "127&euro;"
+          },
+        "rating": 2,
+        "tags": {
+          "isNew": true,
+          "isFull": false
+        },
+        "image": "assets/img/offers/hongKong.jpg"
+      },
+      {
+        "title": "New York",
+        "location": "North America",
+        "description": "The city that never sleeps. From iconic landmarks like Times Square to diverse neighborhoods, world-class dining, Broadway shows, and endless shopping, there's something for everyone in the Big Apple.",
+        "price": {
+            "old": "609&euro;",
+            "new": "563&euro;"
+          },
+        "rating": 4,
+        "tags": {
+          "isNew": false,
+          "isFull": true
+        },
+        "image": "assets/img/offers/newYork.jpg"
+      },
+      {
+        "title": "Istanbul",
+        "location": "Europe and Asia",
+        "description": "Where East meets West. Immerse yourself in its rich history, marvel at stunning architecture like the Hagia Sophia, and get lost in the vibrant energy of its bustling bazaars and delicious cuisine.",
+        "price": {
+            "old": null,
+            "new": "328&euro;"
+          },
+        "rating": 3,
+        "tags": {
+          "isNew": false,
+          "isFull": false
+        },
+        "image": "assets/img/offers/istanbul2.jpg"
+      },
+      {
+        "title": "Bangkok",
+        "location": "Asia",
+        "description": "The heart of Thailand's cultural tapestry. Indulge in exotic street food, marvel at ornate temples like Wat Arun, and experience the city's vibrant nightlife and bustling markets.",
+        "price": {
+            "old": "487&euro;",
+            "new": "421&euro;"
+          },
+        "rating": 5,
+        "tags": {
+          "isNew": false,
+          "isFull": true
+        },
+        "image": "assets/img/offers/bangkok.jpg"
+      },
+      {
+        "title": "Paris",
+        "location": "Europe",
+        "description": ">The epitome of romance and elegance. Fall in love with its iconic landmarks like the Eiffel Tower, indulge in world-class cuisine, and immerse yourself in its rich artistic and cultural heritage.",
+        "price": {
+            "old": null,
+            "new": "421&euro;"
+          },
+        "rating": 5,
+        "tags": {
+          "isNew": false,
+          "isFull": false
+        },
+        "image": "assets/img/offers/paris.jpg"
+      },
+      {
+        "title": "London",
+        "location": "Europe",
+        "description": "A blend of tradition and modernity. From Buckingham Palace to the vibrant West End, experience royal heritage, diverse culture, thriving arts scene, and iconic landmarks like the Tower Bridge.",
+        "price": {
+            "old": null,
+            "new": "578&euro;"
+          },
+        "rating": 3,
+        "tags": {
+          "isNew": false,
+          "isFull": false
+        },
+        "image": "assets/img/offers/london.jpg"
+      },
+      {
+        "title": "Tokyo",
+        "location": "Asia",
+        "description": "Where tradition meets innovation. Explore futuristic technology, serene temples, bustling streets, and indulge in culinary delights from Michelin-starred restaurants to street-side ramen stalls in this dynamic metropolis.",
+        "price": {
+            "old": "1487&euro;",
+            "new": "1211&euro;"
+          },
+        "rating": 4,
+        "tags": {
+          "isNew": false,
+          "isFull": true
+        },
+        "image": "assets/img/offers/tokyo2.jpg"
+      },
+      {
+        "title": "Bali",
+        "location": "Asia",
+        "description": "Paradise on Earth. Relax on stunning beaches, immerse in lush landscapes, experience vibrant cultural rituals, and find inner peace in its tranquil atmosphere, making it an idyllic escape for rejuvenation and exploration.",
+        "price": {
+            "old": "743&euro;",
+            "new": "675&euro;"
+          },
+        "rating": 5,
+        "tags": {
+          "isNew": true,
+          "isFull": false
+        },
+        "image": "assets/img/offers/bali.jpg"
+      }
+    ]
+  }
+  

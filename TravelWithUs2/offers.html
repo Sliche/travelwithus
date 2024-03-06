@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="Travel With Us,Travel Tips, Where to Travel,Barcelona,Kusadasi,Rome"/>
+    <meta name="description" content="Travel With Us "/>
+    <meta name="author" content="TravelTips.com"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cc1700abb9.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/offers.js"></script>
+    <script type="text/javascript" src="assets/js/layout.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel = "icon" href ="assets/img/logo_short.png" type = "image/x-icon"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>TWU</title>
+
+</head>
+<body>
+
+  <!--Navigacija-->
+  <header class="an-bg-grey">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top py-2">
+        <div class="container-fluid">
+            <h1><a href="index.html" class="mx-3 text-uppercase">travel with us</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto" id="navbarResponsive">
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!--Offers-->
+<section>
+  <div class="container-fluid">
+    <h2 class="text-center m-5 an-headerBottom">&#9830; Our Offers &#9830;</h2>
+
+    
+
+    <div class="container my-5">
+      
+  <div class="row ">
+    <div class="col-lg-7 mx-auto">
+      <div class="card mt-2 mx-auto p-4 bg-light">
+          <div class="card-body bg-light">
+          <div class = "container">
+          
+          <div class="controls">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="price">Price-range *</label>
+                          <input id="cena" type="text" name="priceRange" class="form-control" placeholder="300">  
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="drpbox">Please specify what continent</label>
+                      <select id="drpbox" name="need" class="form-control">
+                          <option value="" selected disabled>--Continent--</option>
+                          
+                      </select>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-12">
+                  <div class="form-group text-center">
+                    <div class="form-check form-check-inline ">
+                      
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="1">
+                      <label class="form-check-label" for="inlineCheckbox1">1 <li class="list-inline-item m-0"><i class="fa fa-star"></i></li></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="2">
+                      <label class="form-check-label" for="inlineCheckbox2">2 <li class="list-inline-item m-0"><i class="fa fa-star"></i></li></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="3" >
+                      <label class="form-check-label" for="inlineCheckbox3">3 <li class="list-inline-item m-0"><i class="fa fa-star"></i></li></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="4" >
+                      <label class="form-check-label" for="inlineCheckbox4">4 <li class="list-inline-item m-0"><i class="fa fa-star"></i></li></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="5" >
+                      <label class="form-check-label" for="inlineCheckbox5">5 <li class="list-inline-item m-0"><i class="fa fa-star"></i></li></label>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="ispis" class="row m-5">
+      <!-- Offers will be dynamically added here -->
+    </div>
+
+
+    <h2 id="noOffers" class="text-center m-5 an-headerBottom">&#9830; We are terrible sorry but we don't have any offer at that conditons, please look foward our plans, or give us advice! &#9830;</h2>
+  </div>
+
+
+</section>
+    
+
+
+    <!--Future-->
+
+    <section class="an-bg-lb">
+      <div class="container my-5 ">
+        <div class="row text-center m-5 p-3 justify-content-center an-oheader">
+          <h2 class="m-3">&#9830; Our Plans &#9830;</h2>
+          <p>Please help us decide what new offers we will be adding by voting for offer that interest you the most, and if u have been to some of them please rate your experience</p>
+        </div>
+        
+        <div class="row ">
+          
+          <div id="futureOffers" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active px-4">
+                    <!--Pocetak...-->
+                    <div class="container-fluid">
+                      <div class="row m-5">
+
+                        <div class="col-xs-12 col-lg-6">
+                          <div class="card rounded shadow-sm border-0" >
+                            <img src="assets/img/offers/belgrade.jpg" class="card-img-top" alt="Card image of Belgrade">
+                            <div class="card-body">
+                              <h4 class="card-title text-center">Belgrade</h4>
+                                  <ul class="list-inline text-center ">
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+                  
+                        <div class="col-xs-12 col-lg-6">
+                          <div class="card rounded shadow-sm border-0" >
+                            <img src="assets/img/offers/mountEverest.jpg" class="card-img-top" alt="Card image of Mount Everest">
+                            <div class="card-body">
+                              <h4 class="card-title text-center ">Mount Everest</h4>
+                                  <ul class="list-inline text-center ">
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                    <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--KRAJ-->
+              </div>
+              <div class="carousel-item px-4">
+                <!--Pocetak...-->
+                <div class="container-fluid">
+                  <div class="row m-5">
+
+                    <div class="col-xs-12 col-lg-6">
+                      <div class="card rounded shadow-sm border-0" >
+                        <img src="assets/img/offers/sahara.jpg" class="card-img-top" alt="Card image of Sahara">
+                        <div class="card-body">
+                          <h4 class="card-title text-center ">Sahara</h4>
+                              <ul class="list-inline text-center ">
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="col-xs-12 col-lg-6">
+                      <div class="card rounded shadow-sm border-0" >
+                        <img src="assets/img/offers/sanktPeterburg.jpg" class="card-img-top" alt="Card image of Sankt Peterburg">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Sankt Peterburg</h4>
+                              <ul class="list-inline text-center">
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!--KRAJ-->
+              </div>
+              <div class="carousel-item px-4">
+                <!--Pocetak...-->
+                <div class="container-fluid">
+                  <div class="row m-5">
+
+                    <div class="col-xs-12 col-lg-6">
+                      <div class="card rounded shadow-sm border-0" >
+                        <img src="assets/img/offers/amazon.jpg" class="card-img-top" alt="Card image of Amazon Jungle">
+                        <div class="card-body">
+                          <h4 class="card-title text-center ">Amazon Jungle</h4>
+                              <ul class="list-inline text-center ">
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="col-xs-12 col-lg-6">
+                      <div class="card rounded shadow-sm border-0" >
+                        <img src="assets/img/offers/safari.jpg" class="card-img-top" alt="Card image of African Safari">
+                        <div class="card-body">
+                          <h4 class="card-title text-center ">African Safari</h4>
+                              <ul class="list-inline text-center ">
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star text-info"></i></li>
+                                <li class="list-inline-item m-0"><i class="fa fa-star-o"></i></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!--KRAJ-->
+              </div>
+            </div>
+           <button class="carousel-control-prev" type="button" data-target="#futureOffers" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#futureOffers" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+
+
+
+ <!--Footer-->
+ <footer class="bg-dark text-center text-white">
+  <div class="container px-4">
+    <div class="row text-center d-flex justify-content-center py-4">
+    </div>
+    <div class="an-fa mb-3">
+    </div>
+  </div>
+  <div class="text-center p-2 an-bg-darken" >
+    <p>&copy; 2024 TravelWithUs</p>
+  </div>
+</footer>
+
+
+
+
+
+<!--Scripts BS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

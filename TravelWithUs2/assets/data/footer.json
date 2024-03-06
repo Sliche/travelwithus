@@ -1,0 +1,16 @@
+{
+    "fontAwsome": [
+      { "class": "fab fa-facebook-f", "link": "#" },
+      { "class": "fab fa-twitter", "link": "#" },
+      { "class": "fab fa-google", "link": "#" },
+      { "class": "fab fa-instagram", "link": "#" }
+    ],
+    "footerNavigation": [
+      { "label": "Home", "link": "index.html" },
+      { "label": "Offers", "link": "offers.html" },
+      { "label": "Advice", "link": "advice.html" },
+      { "label": "Author", "link": "author.html" },
+      { "label": "Documentation", "link": "Dokumentacija.docx", "target": "_blank" }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "links": [
+      {
+        "text": "Home",
+        "url": "index.html"
+      },
+      {
+        "text": "Offers",
+        "url": "offers.html"
+      },
+      {
+        "text": "Advice",
+        "url": "advice.html"
+      },
+      {
+        "text": "Author",
+        "url": "author.html"
+      }
+    ]
+  }
+  
